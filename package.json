@@ -1,0 +1,19 @@
+{
+  "name": "cypress-lekcje",
+  "version": "1.0.0",
+  "description": "automatyzacja testow w cypress",
+  "main": "index.js",
+  "scripts": {
+    "checkbox": "cypress run --spec cypress/e2e/checkbox.cy.js"
+  },
+  "keywords": [
+    "automatyzacja",
+    "cypress",
+    "testy"
+  ],
+  "author": "Marcin Zieliński",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
